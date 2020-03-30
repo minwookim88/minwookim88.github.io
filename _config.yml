@@ -30,7 +30,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Include from processing.
+include: ['_pages']
+
 # Exclude from processing.
+exclude:
+    - README.md
+    - site_build_reference.md
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
