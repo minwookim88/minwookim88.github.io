@@ -6,6 +6,10 @@ The theme of the site is called minimal-mistakes
 and current implementation is remote-theme-method based that imports the theme at run-time.
 You can change this theme in '_config.yml' file and Gemfile located at the root directory.
 
+For customization purposes, there are 2 overidding files that shadow the original theme settings.
+1. /assets/css/main.scss : Changing font options
+2. /_includes/scripts.html : Enabling LaTeX use
+
 For the choice of layout for pages or posts, please refer to the following page:
 https://github.com/mmistakes/minimal-mistakes/tree/master/_layouts
 
