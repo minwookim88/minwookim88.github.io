@@ -3,3 +3,4 @@ _drafts
 .sass-cache
 .jekyll-metadata
 image_palette.key
+site_build_reference.md
