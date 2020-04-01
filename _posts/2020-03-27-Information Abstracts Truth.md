@@ -34,7 +34,8 @@ In this respect, information, as the result of informationalization process, is 
 <a href="https://www.planetware.com/new-york/from-new-york-city-to-niagara-falls-best-ways-to-get-there-us-ny-65.htm">(source)</a></figcaption>
 </figure>
 
-You come to visit the Niagara Falls for the first time in life. You are so impressed by the magnificent view of falling water body, so you decide to brag about the amazing view to your friend, who had never been to the place before. You haven’t been able to see the other side of the falls but that’s ok, because this is the best time to make fun of him so you don’t want to miss it out. You give him a call, and start describing how the falls look like, without revealing the fact that you have not been able to see the other side of the falls as well.
+<hr style="height:3px;border:none;color:#808080;background-color:#808080;" />
+You've come to visit the Niagara Falls for the first time in life. You are so impressed by the magnificent view of falling water body, so you decide to brag about the amazing view to your friend, who had never been to the place before. You haven’t been able to see the other side of the falls but that’s ok, because this is the best time to make fun of him so you don’t want to miss it out. You give him a call, and start describing how the falls look like, without revealing the fact that you have not been able to see the other side of the falls as well.
 
 > "I have never seen such a beautiful scenery before. A water body flows into the falls and water splashes onto downstream, which creates a fog-like vapor, but it is so huge in scale that makes it look like something supernatural going on, ..."
 
@@ -49,13 +50,13 @@ This dumb must be the worst person in the world who has some problem in his awfu
   <figcaption>Dimensions of Niagara Falls
 <a href="https://nyfalls.com/niagara-falls/faq-2/">(source)</a></figcaption>
 </figure>
-
+<hr style="height:3px;border:none;color:#808080;background-color:#808080;" />
 It could be your friend's own awful sense of appreciation that makes him not able to appreciate the beauty of the fall, but how you feel about the object has nothing to do with the truth behind it. When you say "Niagara Falls is big", it is just an individual's abstracted description of the actual truth that the fall is
 <a href="https://en.wikipedia.org/wiki/Niagara_Falls#Characteristics" style="color:black">21~51m in height, and 320~790m in width</a>. Big is relative concept, so it only makes sense when you compare with other objects of the same kind. The statement that "Niagara Falls is big" is contextual and thus only makes sense when the comparison is implicitly being made only with other falls; not mountains. When you even say "Niaga Falls looks beautiful when the weather is clear", it might be useful information for travelers but still, it is individual's summarization and impression about the actual scenery that water particles create by reflecting light under strong sun rays in the absence of deflective clouds. More importantly, some people might feel it looks more beautiful when it is cloudy, so how is it close to the truth? Information abstracts truth, so it is contextual and subjective. It can never be identical to truth.
-
-The importance of understanding the nature of information in data analysis lies in relation between information and data. Data is a recorded information in a written form using numbers and letters. This means that data is legible representation of information that follows some agreed standards. Understanding the nature of information and its relation with data thus helps us analyze data more accurately because data can never be understood correctly without understanding missing piece of truth that information introduces.
 
 <figure>
   <img src="/assets/images/data_table.png">
   <figcaption>Data Table</figcaption>
 </figure>
+
+The importance of understanding the nature of information in data analysis lies in relation between information and data. Data is a recorded information in a written form using numbers and letters. This means that data is legible representation of information that follows some agreed level of standards. Understanding the nature of information and its relation with data thus helps us analyze data more accurately because data can never be understood correctly without understanding missing piece of truth that information introduces.
