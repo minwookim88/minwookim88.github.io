@@ -5,15 +5,19 @@ date:   2020-03-28 20:00:00 -0700
 categories: data_science topsy-turvy
 ---
 
-<figure>
-  <img src="https://d3ds21tjpn8xnd.cloudfront.net/beta/wp-content/uploads/2019/04/Niagara-Falls-Height1.jpg">
-  <figcaption>Dimensions of Niagara Falls
-<a href="https://nyfalls.com/niagara-falls/faq-2/">(source)</a></figcaption>
-</figure>
-
 In order to understand the nature of data, we first need to understand [the concept of information and its relation with data]({% post_url 2020-03-27-Information Abstracts Truth %}). In short, information is subjective description that attempts to summarize contextual truth given the limited description capacity. That is, information is truth conditional upon context, if we are allowed to use probabilistic terminology. In a general sense, information is (mostly) intangible, so it inherits two major problems: One, it is easily likely to deviate from the original meaning as it passes down to others because people tend to reinterpret the meaning (either intentionally or unintentionally) as they deliver the information; Two, there is no viable way to propagate information directly on a large scale - you can never deliver your original knowledge directly to millions of people in your lifetime because of physical limitation in time and space.
 
+<figure>
+  <img src="/assets/images/3layer_pyramid.png">
+  <figcaption>Truth, Information, and Data</figcaption>
+</figure>
+
 Data, on the other hand, is recorded information in a written form using numbers and letters. The key characteristics that differentiates data from information is sustainability. Once you record it, data exists and lasts forever unless otherwise destroyed. So, unlike information, data is more robust to deformation and is most suitable for massive propagation. However, this doesn't mean that data is always reliable and objective. It's not, even though they are represented as numbers and letters which are seemingly objective.
+
+<figure>
+  <img src="/assets/images/data_table2.png">
+  <figcaption>Data Table</figcaption>
+</figure>
 
 Because data is recorded information, it requires someone (say, source of the data) who first observes evidence of truth and translates it into information through abstraction. Then, the source records the resulting abstracted information into formatted data.
 <!---That means, data goes through additional step of abstraction.--->
@@ -35,7 +39,12 @@ Few days later, <font color="blue"><b>A</b></font> decides to treat <font color=
 
 (<font color="blue"><b>A</b></font>): "Wait, did you measure index finger length? Not middle finger?"
 
-(<font color="red"><b>B</b></font>): "Yeah, why? Just because I thought that index finger would be the best representative out of 5 fingers that represents some sort of average finger length of hand. Is there something wrong?... Anyway, where was I? Hmm.. I got it. So, I was just about to measure the very first participant's finger, but holy crap, I wasn't sure where finger actually starts! Is it the small knuckle bone that connects finger and back of hand? Or is it the palm-side fingerprint that bends and connects between finger and palm? I hadn't really thought about it seriously, my bad, so I had to pay for it. I was so embarrassed that I couldn’t make a decision right away. Sometimes I measured from the bone, sometimes I measured from the print... My mind was full of the thoughts that I screwed up my own research; I just couldn't get away with it. After wasting some precious hours, I managed to get a grip, and finally decided to stick with the knuckle bone."
+(<font color="red"><b>B</b></font>): "Yeah, why? Just because I thought that index finger would be the best representative out of 5 fingers that represents some sort of average finger length of hand. Is there something wrong?... Anyway, where was I? Hmm.. I got it. So, I was just about to measure the very first participant's finger, but holy crap, I wasn't sure where finger actually starts! Is it the small knuckle bone that connects finger and back of hand? Or is it the palm-side fingerprint that bends and connects between finger and palm? I hadn't really thought about it seriously, my bad, so I had to pay for it. I was so embarrassed that I couldn’t make a decision right away. Sometimes I measured from the bone, sometimes I measured from the print... My mind was full of the thoughts that I screwed up my own research; I just couldn't get away with it. After wasting precious hours, I finally managed to get a grip, and decided to stick with the knuckle bone."
+
+<figure>
+  <img src="/assets/images/hand.png">
+  <figcaption>How will you measure?</figcaption>
+</figure>
 
 (<font color="blue"><b>A</b></font>): "Okay, that's new to me. So what did you do with those early data?"
 
@@ -54,6 +63,11 @@ Few days later, <font color="blue"><b>A</b></font> decides to treat <font color=
 Apparently, there was a big gap between what <font color="blue"><b>A</b></font> expected from the data and what <font color="blue"><b>B</b></font> actually collected. When (<font color="red"><b>B</b></font>) was collecting data, he first observed the actual finger lengths (<b>evidence of truth</b>) of some of European people. However, this is not identical to the truth (which he might have pursued if it is ever possible) about actual finger lengths of all European people, because he only measured a portion of people. Also, when he was transforming his observation into <b>information</b>, he arbitrarily abstracted his observation by only caring about index finger length. No one can guarantee whether index finger is indeed the best representative, so it is this abstraction that introduced subjectivity to his dataset. It would have been much better if he could have somehow measured all finger lengths of all European people, but as is discussed [here]({% post_url 2020-03-27-Information Abstracts Truth %}), it is impossible due to physical limitations.
 
 After he observed and formed his own version of information, he recorded his information as a form of <b>data</b> in order to preserve information. The way he recorded, however, was somewhat inconsistent. Sometimes he used knucklebone as starting point, and sometimes he used fingerprint. His mental information of "this long index finger" is inconsistently translated and recorded due to the lack of firm standard. Furthermore, although it is not explicitly stated in this example, he still could not been able to record correct information even with consistent standard, due to what is called <b>measurement error</b>. Whatever measurement device he might have used, there is inherent limitation that we can never read guage perfectly with naked eyes. Even if he might have used some sort of automatic measurement device, the maximum resolution of the device and discretization trait introduced by binary-oriented system does not allow you to record perfect truth.
+
+<figure>
+  <img src="/assets/images/ruler.png">
+  <figcaption>We cannot tell the exact length</figcaption>
+</figure>
 
 Now we understand why data is also subjective and thus is not always reliable. In this example, we can see that there are three layers of abstraction that contributed to subjectivity. First layer is the step where he abstracted, justified and identified the <b>sample</b> of observation with the ground truth. 
 Second layer is the step where he formed his own mental model that abstracts and maps hand observation into index finger length. Final layer is the step where he attempted to quantitatively measure his intangible idea of "long" and "short" and convert the idea to some numbers through measurement device and, record them.
