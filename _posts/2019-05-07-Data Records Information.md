@@ -1,11 +1,18 @@
 ---
 layout: posts
 title:  "Data Records Information"
-date:   2020-03-28 20:00:00 -0700
-categories: data_science topsy-turvy
+date:   2019-05-07 20:00:00 -0700
+categories:
+  - data_science
+  - topsy-turvy
+tags:
+  - data
+  - information
+  - truth
+  - observation
 ---
 
-In order to understand the nature of data, we first need to understand [the concept of information and its relation with data]({% post_url 2020-03-27-Information Abstracts Truth %}). In short, information is subjective description that attempts to summarize contextual truth given the limited description capacity. That is, information is truth conditional upon context, if we are allowed to use probabilistic terminology. In a general sense, information is (mostly) intangible, so it inherits two major problems: One, it is easily likely to deviate from the original meaning as it passes down to others because people tend to reinterpret the meaning (either intentionally or unintentionally) as they deliver the information; Two, there is no viable way to propagate information directly on a large scale - you can never deliver your original knowledge directly to millions of people in your lifetime because of physical limitation in time and space.
+In order to understand the nature of data, we first need to understand [the concept of information and its relation with data]({% post_url 2019-04-03-Information Abstracts Truth %}). In short, information is subjective description that attempts to summarize contextual truth given the limited description capacity. That is, information is truth conditional upon context, if we are allowed to use probabilistic terminology. In a general sense, information is (mostly) intangible, so it inherits two major problems: One, it is easily likely to deviate from the original meaning as it passes down to others because people tend to reinterpret the meaning (either intentionally or unintentionally) as they deliver the information; Two, there is no viable way to propagate information directly on a large scale - you can never deliver your original knowledge directly to millions of people in your lifetime because of physical limitation in time and space.
 
 <figure>
   <img src="/assets/images/3layer_pyramid.png">
@@ -60,7 +67,7 @@ Few days later, <font color="blue"><b>A</b></font> decides to treat <font color=
 
 <hr style="height:3px;border:none;color:#808080;background-color:#808080;" />
 
-Apparently, there was a big gap between what <font color="blue"><b>A</b></font> expected from the data and what <font color="blue"><b>B</b></font> actually collected. When (<font color="red"><b>B</b></font>) was collecting data, he first observed the actual finger lengths (<b>evidence of truth</b>) of some of European people. However, this is not identical to the truth (which he might have pursued if it is ever possible) about actual finger lengths of all European people, because he only measured a portion of people. Also, when he was transforming his observation into <b>information</b>, he arbitrarily abstracted his observation by only caring about index finger length. No one can guarantee whether index finger is indeed the best representative, so it is this abstraction that introduced subjectivity to his dataset. It would have been much better if he could have somehow measured all finger lengths of all European people, but as is discussed [here]({% post_url 2020-03-27-Information Abstracts Truth %}), it is impossible due to physical limitations.
+Apparently, there was a big gap between what <font color="blue"><b>A</b></font> expected from the data and what <font color="blue"><b>B</b></font> actually collected. When (<font color="red"><b>B</b></font>) was collecting data, he first observed the actual finger lengths (<b>evidence of truth</b>) of some of European people. However, this is not identical to the truth (which he might have pursued if it is ever possible) about actual finger lengths of all European people, because he only measured a portion of people. Also, when he was transforming his observation into <b>information</b>, he arbitrarily abstracted his observation by only caring about index finger length. No one can guarantee whether index finger is indeed the best representative, so it is this abstraction that introduced subjectivity to his dataset. It would have been much better if he could have somehow measured all finger lengths of all European people, but as is discussed [here]({% post_url 2019-04-03-Information Abstracts Truth %}), it is impossible due to physical limitations.
 
 After he observed and formed his own version of information, he recorded his information as a form of <b>data</b> in order to preserve information. The way he recorded, however, was somewhat inconsistent. Sometimes he used knucklebone as starting point, and sometimes he used fingerprint. His mental information of "this long index finger" is inconsistently translated and recorded due to the lack of firm standard. Furthermore, although it is not explicitly stated in this example, he still could not been able to record correct information even with consistent standard, due to what is called <b>measurement error</b>. Whatever measurement device he might have used, there is inherent limitation that we can never read guage perfectly with naked eyes. Even if he might have used some sort of automatic measurement device, the maximum resolution of the device and discretization trait introduced by binary-oriented system does not allow you to record perfect truth.
 

@@ -1,8 +1,14 @@
 ---
 layout: posts
 title:  "Data Dictates Analysis"
-date:   2020-03-26 20:00:00 -0700
-categories: data_science topsy-turvy
+date:   2019-02-15 20:00:00 -0700
+categories:
+  - data_science
+  - topsy-turvy
+tags:
+  - data
+  - data_analysis
+  - EDA
 ---
 When we do data analysis, we often neglect that the fact that data is the biggest and the most important part of the whole analysis process. Depending on the information it contains, it dictates overall direction of the upcoming analysis - it helps us to define specific problems to solve from rather raw, project-oriented broader objectives; then it further determines which methodologies and algorithms need to be used in order to achieve the goals. Thus, data is more than just a gimmick for an analysis project. If there is a huge discrepancy between the goal of a project and the actual information available in the data, we need to either step back and redirect the project or try to get new data that looks more promising.
 

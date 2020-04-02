@@ -1,8 +1,14 @@
 ---
 layout: posts
 title:  "Information Abstracts Truth"
-date:   2020-03-27 20:00:00 -0700
-categories: data_science topsy-turvy
+date:   2019-04-03 20:00:00 -0700
+categories:
+  - data_science
+  - topsy-turvy
+tags:
+  - information
+  - truth
+  - informationalization
 ---
 
 Information is an abstract concept that refers to the attempt to describe true nature of world. It refers to the summarized observation of the actual truth behind it. If someone asks me how the weather looks like in Santa Clara so I answer like "Bit dry because there is not much raining and mild in terms of temperature", it becomes information to him, but the information does not fully describe how frequently it rains and what the average temperature range in the region is.
