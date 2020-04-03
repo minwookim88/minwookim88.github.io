@@ -1,14 +1,14 @@
 ---
 layout: posts
-title:  "Distribution(1): Bernoulli"
-date:   2020-01-21 20:00:00 -0700
+title:  "Distribution(2): Binomial"
+date:   2020-01-24 20:00:00 -0700
 categories:
   - Math
   - Probability_Theory
   - Stat
   - data_science
 ---
-<b>Bernoulli distribution</b> is a
+<b>Binomial distribution</b> is a
 [probability distribution]({% post_url 2019-09-14-Random Variable and Distribution %})
 where the associated random variable $X$ takes only two values - $0$ and $1$;
 that is, the range of the random variable function
