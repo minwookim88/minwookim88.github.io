@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Data Acquisition and Sampling"
+title:  "Sampling Introduces Bias"
 date:   2019-06-18 20:00:00 -0700
 categories:
   - data_science
@@ -13,7 +13,7 @@ tags:
   - variance
   - tradeoff
 ---
-Suppose one day we happen to observe a phenomenon that occurs in nature.
+Suppose one day we happen to observe a phenomenon that occurs in the nature.
 If it is the first time, it won't be easy to informationalize the observation
 (i.e. [transform the observation into information]({% post_url 2019-04-03-Information Abstracts Truth %})),
 because we are not sure which part of the phenomenon is repetitive and which part is not.
@@ -32,20 +32,27 @@ As a consequence, we are forced to choose only a limited number of candidates fo
 
 <b>Sampling</b> refers to the process of selecting <u>a list of candidates</u> (called <b>sample</b>) for observation out of <u>all observable objects in the universe</u> (called <b>population</b>). It is a technique that is used to walk around the need to observe everything, while ensuring that these candidates are sufficiently representative of the entire universe in the sense that the findings from the candidates are close to those from the universe.
 
-So, the purpose of sampling is to find (1) <u>good enough samples to well-represent the population</u>,
-while (2) securing <u>enough number of samples to be able to generalize findings</u> out of them, at the same time (3) <u>alleviating the burden of observing too many samples</u>.
+So, the purpose of sampling is to find (1) <u>good samples that represent the population well enough</u>,
+while (2) securing <u>enough number of samples to be able to generalize findings</u> out of them, but at the same time (3) <u>alleviating the burden of observing too many samples</u> (or reducing the cost of collecting too many data).
+
+The issue related between conflicting items (2) and (3) is about the tradeoff between significance level of model and the cost of collecting data. More discussion on this continues on
+[this post]({% post_url 2019-04-13-Hypothesis Testing %}).
+Issue related with (1) is <b>bias</b> problem, which is the core of data analysis that makes it so difficult and frustrating for most of the time.
+
+Simply speaking, <b>bias</b> is the degree of how sample is tilted compared to population
+(for formal definition of <b>bias</b>, please see [this post]({% post_url 2019-04-13-Hypothesis Testing %})).
+In almost all cases, biased sample comes from the fact that the data collector, whoever it is, failed to capture important confounding factors when encoding the data.
 
 
 
 
-Issue related with (1) is <b>bias</b> problem,
-and the issue between conflicting (2) and (3) is <b>cost-reliability tradeoff</b>.
-
-
-<b>bias-variance tradeoff</b>.
 
 
 
+
+
+
+<!---
 These two criteria are conflicting sometimes, because if we select too few number of samples,
 there is low change of finding 
 
@@ -53,4 +60,4 @@ there is low change of finding
 they need to be generalizable to a certain extent. 
 
 as we observe more, we can generalize
-
+--->
