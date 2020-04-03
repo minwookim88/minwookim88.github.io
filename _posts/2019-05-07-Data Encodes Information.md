@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Data Records Information"
+title:  "Data Encodes Information"
 date:   2019-05-07 20:00:00 -0700
 categories:
   - data_science
@@ -26,7 +26,7 @@ Data, on the other hand, is recorded information in a written form using numbers
   <figcaption>Data Table</figcaption>
 </figure>
 
-Because data is recorded information, it requires someone (say, source of the data) who first observes evidence of truth and translates it into information through abstraction. Then, the source records the resulting abstracted information into formatted data.
+Because data is encoded information, it requires someone (say, source of the data) who first observes evidence of truth and translates it into information through abstraction. Then, the source records the resulting abstracted information into formatted data.
 <!---That means, data goes through additional step of abstraction.--->
 The following example explains the detailed process of data recording, which will helpful in understanding why data is also subjective and where the subjectivity comes from.
 

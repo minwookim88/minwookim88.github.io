@@ -22,6 +22,24 @@ body {
   font-family: $medium-website-font5;
 }
 
+.masthead {
+/*  background-color: black; */
+}
+
+.greedy-nav {
+/*  background-color: black; */
+}
+
+a.site-title {
+/*  color: white; */
+/*  font-weight: bold; */
+}
+
+ul.visible-links > li > a {
+  color: black;
+  font-weight: bold;
+}
+
 figure figcaption {
   font-size: 20px;
   text-align: center;
