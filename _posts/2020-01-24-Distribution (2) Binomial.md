@@ -10,7 +10,11 @@ categories:
 ---
 <b>Binomial distribution</b> is a
 [probability distribution]({% post_url 2019-09-14-Random Variable and Distribution %})
-where the associated random variable $X$ takes only two values - $0$ and $1$;
+where the associated random variable $X$
+is supposed to encode 
+
+
+takes only two values - $0$ and $1$;
 that is, the range of the random variable function
 $X:\Omega \rightarrow ${$0,1$} that encodes outcomes of sample space
 is binary.
