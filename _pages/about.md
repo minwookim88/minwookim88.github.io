@@ -19,6 +19,7 @@ I am currently living in
 <i class="fa fa-map-marker-alt"></i>
 <a href="https://www.google.com/maps/place/Santa+Clara,+CA/@37.3709535,-122.002572,13z/data=!3m1!4b1!4m5!3m4!1s0x808fb7815c08c193:0xe475a47ca3c0bfc0!8m2!3d37.3541079!4d-121.9552356" target="_blank">Santa Clara, CA</a>.
 </p>
+&nbsp;
 </div>
 
 <h1 id="projects">Projects</h1>
@@ -47,7 +48,7 @@ Built a graphical model that learns data-driven hierarchical structure among PM 
 </li>
 
 <li>
-Built a visualization web-app that automatically provides the results of analysis per query basis. Used PostgreSQL for data hosting, JavaScript/D3.js for front-end and Flask/Python for back-end.
+Built a visualization web-app that automatically provides the results of analysis per query basis. Used PostgreSQL for data hosting, JavaScript/<a href="https://d3js.org/" target="_blank">D3.js</a> for front-end and <a href="https://palletsprojects.com/p/flask/" target="_blank">Flask</a>/Python for back-end.
 </li>
 
 <div>
@@ -59,11 +60,11 @@ Built a visualization web-app that automatically provides the results of analysi
 </div>
 
 <li>
-Built a python REST API that allows users to query and fetch the analysis results from the server on the fly. Used Connexion, Flask with OpenAPI specifications. Used Ray for parallelization.
+Built a python REST API that allows users to query and fetch the analysis results from the server on the fly. Used <a href="https://connexion.readthedocs.io/en/latest/" target="_blank">Connexion</a>, Flask with OpenAPI specifications. Used <a href="https://ray.readthedocs.io/en/latest/" target="_blank">Ray</a> as parallelization framework.
 </li>
 
 <li>
-Built a clustering model that identifies behavioral cohorts of RBS' with respect to PM patterns. This helped in understanding possible collective malfunctions occuring in the same region. Used CUDA kernel (Numba) to expedite the computation of large matrices.
+Built a clustering model that identifies behavioral cohorts of RBS' with respect to PM patterns. This helped in understanding possible collective malfunctions occuring in the same region. Used <a href="https://developer.nvidia.com/cuda-zone" target="_blank">CUDA</a> kernel (Numba) to expedite the computation of large matrices.
 </li>
 
 <li>
@@ -222,9 +223,17 @@ Visualized the summary of the analysis for every $10$ mins using <b>wordcloud</b
 <h1 id="trivia">Trivia</h1>
 <p>
 I like music, especailly listening, but also do have interests in
-composing and playing myself; I had played the piano for 7 years, and played mostly classic music from Mozart, Beethoven, Bach, and Chopin (not currently though, unfortunately).
-The last piece I played was <a href="https://www.youtube.com/watch?v=75x6DncZDgI" target="_blank">Fantaisie Impromptu, Op. 66</a> by Chopin,
-which was the reason why I 
+composing and playing myself. I came to learn and start playing piano
+after so fascinated by cathartic
+<a href="https://www.youtube.com/watch?v=75x6DncZDgI" target="_blank">Fantaisie Impromptu, Op. 66</a> by Chopin, had played for 7 years mostly classical music from 
+Mozart, Beethoven, Bach, and Chopin (not currently though, unfortunately).
+</p>
+
+<p>
+My favorite sports is soccer, so I like watching soccer games.
+Although it is not my favorite team, I watch Tottenham's games a lot,
+because there is a korean star player playing in the best 11 squad.
+I also like playing tennis, and going hiking.
 </p>
 
 

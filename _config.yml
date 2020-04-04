@@ -63,6 +63,7 @@ atom_feed:
 
 
 ########################### Search Options
+# Search posts within the site
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : lunr # lunr (default), algolia, google
@@ -74,6 +75,7 @@ algolia:
   files_to_exclude:
     - _posts/2017-11-28-post-exclude-search.md
 
+# Renders the site pages and posts searchable by search engine
 # SEO Related
 google_site_verification : "l9MDd9J1yO9hlD3f2iVkLkn5WmH2_nefO6hdFTvTk9w" # Replace this with your ID, or delete
 bing_site_verification   :
