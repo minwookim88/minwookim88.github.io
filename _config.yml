@@ -75,7 +75,7 @@ algolia:
     - _posts/2017-11-28-post-exclude-search.md
 
 # SEO Related
-google_site_verification : # Replace this with your ID, or delete
+google_site_verification : "l9MDd9J1yO9hlD3f2iVkLkn5WmH2_nefO6hdFTvTk9w" # Replace this with your ID, or delete
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
