@@ -8,7 +8,7 @@ You can change this theme in '_config.yml' file and Gemfile located at the root 
 
 For customization purposes, there are 2 overidding files that shadow the original theme settings.
 1. /assets/css/main.scss : Changing font options
-2. /_includes/scripts.html : Enabling LaTeX use
+2. /_includes/scripts.html : Enabling LaTeX use & Collapsible Divs
 
 For the choice of layout for pages or posts, please refer to the following page:
 https://github.com/mmistakes/minimal-mistakes/tree/master/_layouts

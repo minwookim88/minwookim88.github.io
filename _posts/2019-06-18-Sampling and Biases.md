@@ -39,14 +39,21 @@ The issue related between conflicting items (2) and (3) is about the tradeoff be
 [this post]({% post_url 2019-04-13-Hypothesis Testing %}).
 Issue related with (1) is <b>bias</b> problem, which is the core of data analysis that makes it so difficult and frustrating for most of the time.
 
-Simply speaking, <b>bias</b> is the degree of how sample is tilted compared to population
-(for formal definition of <b>bias</b>, please see [this post]({% post_url 2019-04-13-Hypothesis Testing %})).
+Simply speaking, <b>bias</b> is the degree of how the instances in the given sample are collectively skewed towards some idiosyncratic trends in an unwanted way, that they are not representative of the population in general (for formal discussion of <b>bias</b> from the context of estimator, please see [this post]({% post_url 2019-04-13-Hypothesis Testing %})).
 In almost all cases, biased sample comes from the fact that the data collector, whoever it is, failed to capture important confounding factors when encoding the data.
+The issue should be better understood using some mathematical formulation.
+
+Let $F=F(X,Y)$ be a bivariate (cumulative) [distribution]({% post_url 2019-09-14-Random Variable and Distribution %}) function of the given population, where $X$ and $Y$ are two data encoding mappings
+(a.k.a [random variables]({% post_url 2019-09-14-Random Variable and Distribution %})).
+Let $P$ be the corresponding probability function; i.e. $P(X\le x, Y\le y) = F(x,y)$.
+Suppose a researcher wanted to collect some samples from the population $P$
+Let {$x_i$}$_{i=1}^n$ are the samples.
 
 
+unexpectedly toward compared to population
 
 
-
+Let's crack up this with an concrete example.
 
 
 

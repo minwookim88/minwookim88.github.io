@@ -134,6 +134,8 @@ and its distribution is called <b>multivariate distribution</b>.
 probability mass function
 cumulative distribution function
 probability density function
+population distribution
+sample distribution
 --->
 
 

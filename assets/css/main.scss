@@ -7,6 +7,9 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/*
+##################### Font Settings
+*/
 $medium-website-font: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
 
 $medium-website-font2: medium-content-sans-serif-font !default;
@@ -22,12 +25,23 @@ body {
   font-family: $medium-website-font5;
 }
 
+/*
+########################################## 
+*/
+
+
+/*
+##################### Header Settings
+*/
+
 .masthead {
 /*  background-color: black; */
+  background-color: $footer-background-color;
 }
 
 .greedy-nav {
 /*  background-color: black; */
+  background-color: $footer-background-color;
 }
 
 a.site-title {
@@ -40,11 +54,29 @@ ul.visible-links > li > a {
   font-weight: bold;
 }
 
+/*
+########################################## 
+*/
+
+
+/*
+##################### Figure Caption Settings
+*/
+
 figure figcaption {
   font-size: 20px;
   text-align: center;
   width: 100%;
 }
+
+/*
+########################################## 
+*/
+
+
+/*
+##################### List Settings
+*/
 
 ol {
     padding-left: 0;
@@ -63,4 +95,40 @@ ul {
     padding-left: 1;
     counter-reset: list;
 }
+*/
+
+/*
+########################################## 
+*/
+
+
+/*
+##################### Collapsible Div Settings
+*/
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+/*  padding: 18px; */
+  border: none;
+  text-align: left;
+  outline: none;
+  border-radius: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+/*
+########################################## 
 */

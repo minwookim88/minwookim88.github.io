@@ -1,0 +1,6 @@
+Data Dictates Analysis
+Information Abstracts Truth
+Data Encodes Information
+Probability Space
+Random Variable and Distribution
+Distribution (1) Bernoulli

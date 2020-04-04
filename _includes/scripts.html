@@ -2,6 +2,10 @@
 	src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
 </script>
 
+<!--- 
+############### Added by me ###############
+# For LaTeX use (mathjax)
+--->
 <script type="text/x-mathjax-config">
    MathJax.Hub.Config({
      extensions: ["tex2jax.js"],
@@ -14,6 +18,11 @@
      "HTML-CSS": { availableFonts: ["TeX"] }
    });
 </script>
+<!---
+###########################################
+--->
+
+
 
 {% if site.footer_scripts %}
   {% for script in site.footer_scripts %}
@@ -44,3 +53,30 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+
+<!--- 
+############### Added by me ###############
+# For collapsible divs
+--->
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+var id;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    id = this.id.substring(0,5);
+    var content = document.getElementById(id);
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+<!---
+###########################################
+--->

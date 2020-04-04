@@ -22,12 +22,12 @@ github: [metadata]
 locale                   : "en-US"
 title                    : Data Science Blog
 title_separator          : "-"
-subtitle                 : Tada...
+subtitle                 : Always be one step ahead
 name                     : &name "Minwoo Kim" # &name is a YAML anchor which can be *referenced later
 Email                    : &email kmw0826@gmail.com
 # description: >- # this means to ignore newlines until "baseurl:"
 description: &description # this means to ignore newlines until "baseurl:"
-  A math & computer nerd who does data analysis job for a living.
+  A math & computer nerd who does data analysis for a living.
   Likes and has interests in music and games.
 baseurl                  : # the subpath of your site, e.g. /blog
 url                      : "https://minwookim88.github.io" # the base hostname & protocol for your site, e.g. http://example.com
