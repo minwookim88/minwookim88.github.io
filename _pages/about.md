@@ -50,6 +50,14 @@ Built a graphical model that learns data-driven hierarchical structure among PM 
 Built a visualization web-app that automatically provides the results of analysis per query basis. Used PostgreSQL for data hosting, JavaScript/D3.js for front-end and Flask/Python for back-end.
 </li>
 
+<div>
+<figure>
+<img src="/assets/images/about/tool2_blurred.png">
+<img src="/assets/images/about/tool1_blurred.png">
+<figcaption>Viz tool (Blurred on purpose)</figcaption>
+</figure>
+</div>
+
 <li>
 Built a python REST API that allows users to query and fetch the analysis results from the server on the fly. Used Connexion, Flask with OpenAPI specifications. Used Ray for parallelization.
 </li>
@@ -63,8 +71,18 @@ Built a demo of automatic detection software that allows users to monitor and an
 </li>
 <div>
 <figure>
+<video width="100%" controls>
+  <source src="/assets/videos/about/demo_blurred_newcodec.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<figcaption>Demo (Blurred on purpose)</figcaption>
+</figure>
+</div>
+
+<div>
+<figure>
 <img src="/assets/images/about/demo_snapshot_blurred.png">
-<figcaption>Snapshot of Demo (blurred on purpose)</figcaption>
+<figcaption>Snapshot of Demo (Blurred on purpose)</figcaption>
 </figure>
 </div>
 
