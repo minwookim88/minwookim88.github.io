@@ -43,11 +43,17 @@ Simply speaking, <b>bias</b> is the degree of how the instances in the given sam
 In almost all cases, biased sample comes from the fact that the data collector, whoever it is, failed to capture important confounding factors when encoding the data.
 The issue should be better understood using some mathematical formulation.
 
-Let $F=F(X,Y)$ be a bivariate (cumulative) [distribution]({% post_url 2019-09-14-Random Variable and Distribution %}) function of the given population, where $X$ and $Y$ are two data encoding mappings
-(a.k.a [random variables]({% post_url 2019-09-14-Random Variable and Distribution %})).
-Let $P$ be the corresponding probability function; i.e. $P(X\le x, Y\le y) = F(x,y)$.
-Suppose a researcher wanted to collect some samples from the population $P$
-Let {$x_i$}$_{i=1}^n$ are the samples.
+Suppose a researcher wanted to study the average household income in the United States.
+Because of his limitation on the budge allocated on the study,
+(and also because of the privacy issue; you can still obtain public data from
+Census Bureau for free, but these are all aggregated data, not an individual household level.)
+he can never 
+
+
+
+
+
+Let ${$x_i$}$_{i=1}^n$ are the samples.
 
 
 unexpectedly toward compared to population
@@ -56,10 +62,29 @@ unexpectedly toward compared to population
 Let's crack up this with an concrete example.
 
 
-
-
-
 <!---
+Let $F=F(W)$ be a (cumulative) [distribution]({% post_url 2019-09-14-Random Variable and Distribution %}) function of the given population, where $W$ is data encoding mapping
+(a.k.a [random variables]({% post_url 2019-09-14-Random Variable and Distribution %})).
+Let $P$ be the corresponding probability function.
+Suppose a researcher wanted to collect some samples from the population $P$.
+Typically, what happens is that he fails to capture the correct representation of the
+true random variable $W$ so he only observes a portion of $W$.
+Let's say $W=(X,Y)$.
+Because of his limitation on the budge allocated on the study,
+his lack of knowledge in the domain, and the strict deadline of the project,
+he ends up having only $X$ in his hands and misses out $Y$.
+But, from the definition of [conditional probability]({% post_url 2019-04-08-Bayesian Statistics %}),
+
+the marginal distribution $P(x):=\int P(x,y)\text{d}y$
+
+the joint distribution $P(W)=P(X,Y)$ is never equal to the marginal distribution $P(X)$ unless
+
+
+
+More materials on the topic of missing data can be found
+[in this post]({% post_url 2019-05-10-Missing Data %}).
+
+
 These two criteria are conflicting sometimes, because if we select too few number of samples,
 there is low change of finding 
 
