@@ -7,6 +7,10 @@ categories:
   - Probability_Theory
   - Stat
   - data_science
+
+tags:
+  - random variable
+  - distribution
 ---
 <h2>Random Variable</h2>
 A <b>random variable</b> is a measurable function
