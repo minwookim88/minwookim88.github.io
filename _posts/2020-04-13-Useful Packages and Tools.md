@@ -19,7 +19,7 @@ Here is a list of useful (python) packages and development tools that might be f
 --->
 
 #### Machine Learning / Data Science
-**Pandas**:  
+**Pandas**: allows 
 **GeoPandas**:  
 **Shapely**: allows manipulation and analysis of geometric objects using 2D cartesian coordinates  
 **PyCRS**: allows reading, writing, and converting between various common coordinate reference system (CRS) string and data source formats  
